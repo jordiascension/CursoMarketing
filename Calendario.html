@@ -1,18 +1,48 @@
+<!doctype html>
 <html>
 	<head>
+		<meta charset="utf-8"/>
 		<style>
 			/* Círculos de colores numerados */
 			span.red {
-			background: red;
-			border-radius: 0.8em;
-			-moz-border-radius: 0.8em;
-			-webkit-border-radius: 0.8em;
-			color: #ffffff;
-			display: inline-block;
-			font-weight: bold;
-			line-height: 1.1em;			;
-			text-align: center;
-			width: 1.1em; 
+				background: red;
+				border-radius: 0.8em;
+				-moz-border-radius: 0.8em;
+				-webkit-border-radius: 0.8em;
+				color: #ffffff;
+				display: inline-block;
+				font-weight: bold;
+				line-height: 1.1em;			;
+				text-align: center;
+				width: 1.1em; 
+			}
+
+			.red-circle {
+     			width: 20px;
+     			height: 20px;
+     			-moz-border-radius: 50%;
+     			-webkit-border-radius: 50%;
+     			border-radius: 50%;
+     			background: red;
+			}
+
+			.orange-circle {
+     			width: 20px;
+     			height: 20px;
+     			-moz-border-radius: 50%;
+     			-webkit-border-radius: 50%;
+     			border-radius: 50%;
+     			background: orange;
+				
+			}
+
+			.blue-circle {
+     			width: 20px;
+     			height: 20px;
+     			-moz-border-radius: 50%;
+     			-webkit-border-radius: 50%;
+     			border-radius: 50%;
+     			background: blue;
 			}
 		</style>
 	</head>
@@ -29,6 +59,16 @@
 		</div>
 		<div align="center">
 			<!--TABLA SUPERIOR-->
+			<table width="70%">
+				<tr>
+					<td width="4%"><div class="red-circle"></div></td>
+					<td width="29%">FESTIVO NACIONAL</td>
+					<td width="4%"><div class="orange-circle"></div></td>
+					<td width="29%">EN CATALUÑA</td>
+					<td width="4%"><div class="blue-circle"></div></td>
+					<td width="29%">EN BARCELONA CIUDAD<td>					
+				</tr>
+			</table>
 			<table border="1" bordercolor="red" width="70%" cellpadding="10">
 				<tr>
 					<td align="center" style='vertical-align: top;'>
@@ -48,7 +88,7 @@
 							<tr>
 								<td></td>
 								<td></td>
-								<td><span class="red">1</div></td>
+								<td><span class="red">1</span></td>
 								<td>2</td>
 								<td>3</td>
 								<td>4</td>
