@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <style>
+        span {
+            color: green;       
+            }
+        span.nombre{
+            color: blue;
+        }
+    </style>
+    <script src="C:\Users\jordi\Documents\CursoMarketing\js\myScript.js"></script>
+    </head>
+    <body>
+        <form onsubmit="submitForm()">
+          <div align="center">
+            <table border="1">
+                <tr>
+                    <td><span class="nombre">Name:</span></td>
+                    <td><input type="text" id="txtname"
+                    name="txtname"></td>
+                </tr>
+                <tr>
+                    <td><span >Surname:</span></td>
+                    <td><input type="text" id="txtsurname"
+                    name="txtsurname"></td>
+                </tr>
+                <tr>
+                    <td><span>Id Card:</span></td>
+                    <td><input type="text" id="txtidcard"
+                    name="txtidcard"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Enviar la información">
+                    </td>
+                </tr>
+            </table>
+          </div>
+        </form>
+    </body>
+</html>
